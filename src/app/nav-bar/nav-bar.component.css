@@ -44,7 +44,7 @@
     color: #1F2937;
 }
 
-#loginAndRegister{
+.loginAndRegister{
     width: 33%;
     display: flex;
     flex-direction: row;

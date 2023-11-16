@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-nav-bar',
@@ -7,16 +9,12 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
 
-  constructor()
-  {
-    this.loginRedirect();
-  }
+  constructor(private router: Router) {}
 
   loginRedirect(){
-    let loginButton = document.querySelector("#login") as HTMLElement;
-    loginButton.addEventListener("click", ()=>{
-      
-    })
-
+    this.router.navigate(['/login']);
+  }
+  registerRedirect(){
+    this.router.navigate(['/register']);
   }
 }
