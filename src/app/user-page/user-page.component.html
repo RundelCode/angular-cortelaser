@@ -1,0 +1,24 @@
+<div class="userContainer">
+    <div class="title">
+        <h1>Mis cotizaciones</h1>
+    </div>
+    <div class="infoCon">
+        <p>Nombre: </p>
+        <p>Telefono: </p>
+        <p>Correo: </p>
+    </div>
+    
+    <div class="historialContainer">
+        <div class="firstRow">Historial de cotizaciones</div>
+        <div class="row" *ngFor="let fila of filas">
+          <p class="nameColumn">{{ fila.nombre }}</p>
+          <p class="cotizacionId">{{ fila.id }}</p>
+          <p class="priceContainer">{{ fila.precio }}</p>
+          <p class="sizeContainer">{{ fila.Tamano }}</p>
+        </div>
+      </div>
+
+      <button class="animated-button">
+        Cerrar Sesión
+      </button>
+</div>

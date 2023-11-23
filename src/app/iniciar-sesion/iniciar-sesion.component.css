@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-image: url("https://images.pexels.com/photos/7254428/pexels-photo-7254428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 90vh;
     flex-direction: column;
@@ -20,9 +23,8 @@
     background-color: #131313;
     border-radius: 20px;
     border-radius: 50px;
-    background: #FFFFFF;
-    box-shadow:  10px 10px 20px #bebebe,
-             -10px -10px 20px #ffffff;
+    background: #ffffff6e;
+    backdrop-filter: blur(10px);
 }
 
 .cardContainer .title, .cardContainer p{

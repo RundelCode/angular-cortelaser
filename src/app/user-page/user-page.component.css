@@ -1,0 +1,108 @@
+.userContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;  
+    margin-bottom: 10px;
+}
+
+.infoCon{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.historialContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    box-shadow: 1px 1px 20px 1px #dbdbdb;
+    margin-bottom: 10vh;
+    margin-top: 3vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-top: 0.5px solid #a8a8a8;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.row p{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #a8a8a8;
+}
+
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Personaliza el fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo */
+}
+
+/* Personaliza el "thumb" de la barra de desplazamiento (la parte que se mueve) */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color del thumb */
+}
+
+/* Cambia el color del thumb al pasar el ratón */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del thumb al pasar el ratón */
+}
+
+.firstRow{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a8a8a8;
+    font-size: 30px;
+}
+
+.animated-button {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+    margin-bottom: 5vh;
+  }
+  
+  .animated-button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .animated-button:active {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+  }

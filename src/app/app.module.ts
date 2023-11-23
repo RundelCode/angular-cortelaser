@@ -10,6 +10,8 @@ import { IniciarSesionComponent } from './iniciar-sesion/iniciar-sesion.componen
 import { RegistrarComponent } from './registrar/registrar.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
+import { UserPageComponent } from './user-page/user-page.component';
+import { AdminPageComponent } from './admin-page/admin-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FooterComponent } from './footer/footer.component';
     IniciarSesionComponent,
     RegistrarComponent,
     NavBarComponent,
-    FooterComponent
+    FooterComponent,
+    UserPageComponent,
+    AdminPageComponent
   ],
   imports: [
     BrowserModule,

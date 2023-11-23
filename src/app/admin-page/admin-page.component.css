@@ -1,0 +1,159 @@
+.adminContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.materialsPrice{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 40px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.material{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #131313;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.material p{
+    width: 50%;
+}
+
+.material input{
+    border-radius: 5px;
+    height: 20px;
+    padding-left: 5px;
+}
+
+
+#updateButton {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  #updateButton:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  #updateButton:active {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+  }
+
+  .infocontainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup{
+    position: fixed;
+    width: 100vw;
+    height: 100vH;
+    top: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #13131341;
+    gap: 20px;
+  }
+
+  .popupContainer{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    gap: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+
+  .popupRow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    gap: 20px;
+    border-radius: 10px;
+    width: 70%;
+  }
+
+  .popupRow p{
+    width: 50%;
+  }
+
+
+  .popup input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+
+  #updateButton2 {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 20px;
+  }
+  
+  #updateButton2:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  #updateButton2:active {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+  }

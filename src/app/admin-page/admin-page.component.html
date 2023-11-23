@@ -1,0 +1,31 @@
+<div class="adminContainer">
+    <div class="title">
+        <h1>Administrador de variables</h1>
+    </div>
+    <div class="infocontainer">
+        <div class="materialsPrice">
+            <h3>Precios de los materiales:</h3>
+            <div class="material">
+                <p>Acrílico (PMMA)</p>
+                <p>Precio: 120</p>
+                
+            </div>
+        </div>
+        <button id="updateButton" (click)="openPopup()"> Modificar precios</button>
+</div>
+
+<div class="popup">
+    <div class="popupContainer">
+        <div class="popupRow">
+            <p>Nombre del producto</p>
+            <p>Precio</p>
+        </div>
+        <div class="popupRow">
+            <input type="text" id="productName">
+            <input type="number" id="productPrice">
+        </div>
+        <div class="popupRow">
+            <button id="updateButton" (click)="updateProductPrice()">Modifificar</button>
+        </div>
+    </div>
+</div>

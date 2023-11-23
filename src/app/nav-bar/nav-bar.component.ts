@@ -17,4 +17,7 @@ export class NavBarComponent {
   registerRedirect(){
     this.router.navigate(['/register']);
   }
+  userRedirect(){
+    this.router.navigate(['/userpage']);
+  }
 }
